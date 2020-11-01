@@ -1,0 +1,64 @@
+* {
+  background-color: #001029;
+  color: white;
+}
+h1 {
+  font-size: 40px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+}
+form {
+  width: 500px;
+}
+
+#profile_image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+#username {
+  font-family: Bahnschrift;
+  font-size: 30px;
+  margin: 30px 0 5px 0;
+}
+
+#name {
+  margin-bottom: 20px;
+}
+
+a {
+  font-size: 20px;
+  font-family: monospace;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+}
+.card-panel {
+  background-color: #011532;
+}
+h5 {
+  background-color: transparent;
+}
+@media only screen and (max-width: 600px) {
+  img {
+    width: 300px;
+    height: 300px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  form {
+    width: 300px;
+  }
+}
