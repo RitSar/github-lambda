@@ -1,6 +1,6 @@
 (() => {
   const form = document.querySelector('form');
-  const url = "http://localhost:9000/getuser";
+  const url = "/.netlify/functions/getuser";
   form.onsubmit = e => {
     e.preventDefault();
 
