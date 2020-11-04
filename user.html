@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/styles.css">
 
     <title>Look up Github</title>
@@ -13,43 +14,34 @@
   <body>
     <div class="container">
       <img id="profile_image" src="" alt="image not found">
-      <h2 id="username">Username</h2>
       <a id="name">@</a>
-
-      <div class="row">
-        <div class="col s12 m4">
-          <p id="company">company</p>
-        </div>
-        <div class="col s12 m4">
-          <p id="location">location</p>
-        </div>
-        <div class="col s12 m4">
-          <p id="created">date</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="card-panel">
-            <h5>Repositories</h5>
-            <h5 id="public_repos">13</h5>
-          </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="card-panel">
-            <h5>Followers</h5>
-            <h5 id="followers">13</h5>
-          </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="card-panel">
-            <h5>Following</h5>
-            <h5 id="following">13</h5>
-          </div>
-        </div>
-      </div>
-
     </div>
+
+    <div class="row row1"></div>
+
+    <div class="row row2">
+      <div class="col s12 m4">
+        <div class="card-panel">
+          <h5>Repositories</h5>
+          <h5 id="public_repos">N/A</h5>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card-panel">
+          <h5>Followers</h5>
+          <h5 id="followers">N/A</h5>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card-panel">
+          <h5>Following</h5>
+          <h5 id="following">N/A</h5>
+        </div>
+      </div>
+    </div>
+
+    <h5 style="text-align: center">Top Repositories (by stars)</h5>
+    <div class="row row3"></div>
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

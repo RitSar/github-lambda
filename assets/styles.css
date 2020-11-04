@@ -17,21 +17,40 @@ form {
 }
 
 #profile_image {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
+  margin-bottom: 20px;
 }
 
 #username {
   font-family: Bahnschrift;
-  font-size: 30px;
-  margin: 30px 0 5px 0;
+  font-size: 20px;
 }
 
-#name {
-  margin-bottom: 20px;
+.row1 {
+  margin-top: 30px;
 }
 
+.row2 {
+  width: 70% !important;
+}
+
+.col {
+  margin-right: auto;
+  margin-top: 10px;
+}
+span {
+  margin-left: 5px;
+}
+.repo {
+  text-align: left;
+  height: 200px;
+  background-color: transparent;
+}
+#size {
+  float: right;
+}
 a {
   font-size: 20px;
   font-family: monospace;
@@ -47,8 +66,39 @@ a {
 .card-panel {
   background-color: #011532;
 }
+.card-content {
+  background-color: #011532;
+}
+.card-content span {
+  background-color: #011532;
+}
+.card-content p {
+  background-color: #011532;
+}
+.card {
+  background-color: #011532;
+}
 h5 {
   background-color: transparent;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #011532;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
 }
 @media only screen and (max-width: 600px) {
   img {
